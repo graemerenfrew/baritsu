@@ -17,7 +17,7 @@
  @import 'bootstrap-sprockets';
  @import 'bootstrap';
  
- body, .navbar {
+.navbar, .home-callout {
   /*UIGradients Titanium */
   //Gradient provided by @_ighosh at uiGradients.com
   background: #283048; /* fallback for old browsers */
@@ -25,6 +25,12 @@
   background: linear-gradient(to left, #283048 , #859398); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  }
  
+ .home-callout {
+   color:white;
+   margin-top: -20px;
+   padding-top: 50px;
+   padding-bottom: 100px;
+ }
  .navbar {border:none};
  
  h1, h2, h3 {

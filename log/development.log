@@ -200,3 +200,131 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 1883ms (Views: 1881.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 92.5.90.203 at 2016-12-05 22:03:33 +0000
+Cannot render console from 92.5.90.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 2508ms (Views: 2497.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 92.5.90.203 at 2016-12-05 22:04:01 +0000
+Cannot render console from 92.5.90.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 2018ms (Views: 2015.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 92.5.90.203 at 2016-12-05 22:05:14 +0000
+Cannot render console from 92.5.90.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 39ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 92.5.90.203 at 2016-12-05 22:05:59 +0000
+Cannot render console from 92.5.90.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 47ms (Views: 43.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 92.5.90.203 at 2016-12-05 22:07:35 +0000
+Cannot render console from 92.5.90.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 40ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 92.5.90.203 at 2016-12-05 22:08:19 +0000
+Cannot render console from 92.5.90.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2180ms (Views: 2178.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 92.5.90.203 at 2016-12-05 22:09:18 +0000
+Cannot render console from 92.5.90.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 32ms (Views: 30.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 92.5.90.203 at 2016-12-05 22:09:36 +0000
+Cannot render console from 92.5.90.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 41ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 92.5.90.203 at 2016-12-05 22:12:33 +0000
+Cannot render console from 92.5.90.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 68ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "   margin-top:": expected expression (e.g. 1px, bold), was "; -20px;"):
+    4:     <title>Baritsu Learning</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.css.scss:29
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2553433631474896294_70221153448540'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.1ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (48.6ms)
+Started GET "/" for 92.5.90.203 at 2016-12-05 22:12:44 +0000
+Cannot render console from 92.5.90.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...argin-top -20px": expected "{", was ";"):
+    4:     <title>Baritsu Learning</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.css.scss:29
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2553433631474896294_70221390734000'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.7ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (36.9ms)
+Started GET "/" for 92.5.90.203 at 2016-12-05 22:13:23 +0000
+Cannot render console from 92.5.90.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1949ms (Views: 1947.1ms | ActiveRecord: 0.0ms)
+
+
