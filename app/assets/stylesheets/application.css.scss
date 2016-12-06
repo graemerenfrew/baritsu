@@ -18,11 +18,11 @@
  @import 'bootstrap';
  
 .navbar, .home-callout {
-  /*UIGradients Titanium */
   //Gradient provided by @_ighosh at uiGradients.com
-  background: #283048; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #283048 , #859398); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #283048 , #859398); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #3a7bd5; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #3a7bd5 , #3a6073); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #3a7bd5 , #3a6073); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
  }
  
  .home-callout {
@@ -31,7 +31,25 @@
    padding-top: 50px;
    padding-bottom: 100px;
  }
- .navbar {border:none};
+ 
+.navbar-default .navbar-brand {
+   color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color:white;
+}
+  
+.navbar-default .navbar-brand:hover {
+  color: white;
+  opacity: 0.75;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+  opacity: 0.75;
+}  
+  
+.navbar {border:none};
  
  h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;

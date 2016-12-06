@@ -328,3 +328,67 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 1949ms (Views: 1947.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 92.5.90.203 at 2016-12-06 07:07:45 +0000
+Cannot render console from 92.5.90.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.9ms)
+Started GET "/" for 92.5.90.203 at 2016-12-06 07:07:46 +0000
+Cannot render console from 92.5.90.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4987ms (Views: 4985.9ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 5356ms (Views: 5340.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 92.5.90.203 at 2016-12-06 07:09:59 +0000
+Cannot render console from 92.5.90.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1775ms (Views: 1773.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 92.5.90.203 at 2016-12-06 07:10:08 +0000
+Cannot render console from 92.5.90.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 39ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 92.5.90.203 at 2016-12-06 07:10:12 +0000
+Cannot render console from 92.5.90.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 40ms (Views: 38.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 92.5.90.203 at 2016-12-06 07:10:15 +0000
+Cannot render console from 92.5.90.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 47ms (Views: 45.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 92.5.90.203 at 2016-12-06 07:11:53 +0000
+Cannot render console from 92.5.90.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2164ms (Views: 2161.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 92.5.90.203 at 2016-12-06 07:12:36 +0000
+Cannot render console from 92.5.90.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2130ms (Views: 2128.7ms | ActiveRecord: 0.0ms)
+
+
