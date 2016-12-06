@@ -17,6 +17,9 @@
  @import 'bootstrap-sprockets';
  @import 'bootstrap';
  
+ @import 'font-awesome-sprockets';
+ @import 'font-awesome';
+ 
 .navbar, .home-callout {
   //Gradient provided by @_ighosh at uiGradients.com
 background: #3a7bd5; /* fallback for old browsers */
