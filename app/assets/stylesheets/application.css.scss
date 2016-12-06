@@ -27,7 +27,18 @@ background: -webkit-linear-gradient(to left, #3a7bd5 , #3a6073); /* Chrome 10-25
 background: linear-gradient(to left, #3a7bd5 , #3a6073); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
  
- .home-callout {
+ 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #00c6ff;
+  }
+}
+
+.home-callout {
    color:white;
    margin-top: -20px;
    padding-top: 50px;
