@@ -1105,3 +1105,68 @@ Completed 200 OK in 75ms (Views: 73.4ms | ActiveRecord: 0.0ms)
 
   [1m[36mContact Load (2.0ms)[0m  [1m[34mSELECT "contacts".* FROM "contacts"[0m
   [1m[36mContact Load (2.2ms)[0m  [1m[34mSELECT "contacts".* FROM "contacts"[0m
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/" for 193.130.160.2 at 2016-12-07 14:38:59 +0000
+Cannot render console from 193.130.160.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.1ms)
+Started GET "/" for 193.130.160.2 at 2016-12-07 14:38:59 +0000
+Cannot render console from 193.130.160.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 465ms (Views: 462.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 905ms (Views: 893.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/new" for 193.130.160.2 at 2016-12-07 14:39:06 +0000
+Cannot render console from 193.130.160.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (42.9ms)
+Completed 200 OK in 132ms (Views: 111.6ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/contacts" for 193.130.160.2 at 2016-12-07 14:39:08 +0000
+Cannot render console from 193.130.160.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fMnN41XD0OJxJNX9tZC3/Olde//z+Gqzm+HvsQSEKLF4sJHmghIMfCfhX9mBNsDLG5Tkp2VR/oW6JTCPbvaiYw==", "contact"=>{"name"=>"", "email"=>"", "comments"=>""}, "commit"=>"Submit"}
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Redirected to https://baritsu-rails-myspecialplace.c9users.io/contacts/new
+Completed 302 Found in 6ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/contacts/new" for 193.130.160.2 at 2016-12-07 14:39:08 +0000
+Cannot render console from 193.130.160.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 78ms (Views: 76.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/contacts" for 193.130.160.2 at 2016-12-07 14:39:45 +0000
+Cannot render console from 193.130.160.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mCCmhyd2lqen+qMx+xG6mtDsSkNN5PYc+Qj1NVd3ZYKv/NXll+dKjy3KhiPj6zp2NW/5IvUgxsh0S0uHi7RlQQ==", "contact"=>{"name"=>"Graeme", "email"=>"user2@test. om", "comments"=>"cmnt"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (8.3ms)[0m  [1m[32mINSERT INTO "contacts" ("name", "email", "comments", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Graeme"], ["email", "user2@test. om"], ["comments", "cmnt"], ["created_at", 2016-12-07 14:39:45 UTC], ["updated_at", 2016-12-07 14:39:45 UTC]]
+  [1m[35m (14.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://baritsu-rails-myspecialplace.c9users.io/contacts/new
+Completed 302 Found in 34ms (ActiveRecord: 23.3ms)
+
+
+Started GET "/contacts/new" for 193.130.160.2 at 2016-12-07 14:39:46 +0000
+Cannot render console from 193.130.160.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 92ms (Views: 90.3ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mContact Load (1.8ms)[0m  [1m[34mSELECT "contacts".* FROM "contacts"[0m
