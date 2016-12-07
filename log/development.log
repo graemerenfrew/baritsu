@@ -1678,3 +1678,133 @@ Processing by ContactsController#new as HTML
 Completed 200 OK in 105ms (Views: 101.9ms | ActiveRecord: 0.0ms)
 
 
+Started POST "/contacts" for 193.130.160.2 at 2016-12-07 18:31:21 +0000
+Cannot render console from 193.130.160.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OUosDfOCPUkpPMyD4TcAKbAWR6imJarV7TSyT/tORnwOll9vQxPhYaMM6ZH5zYDFVZX0yR7hmgFgdwz9J41Gvw==", "contact"=>{"name"=>"tt", "email"=>"tt", "comments"=>"tt"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "contacts" ("name", "email", "comments", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "tt"], ["email", "tt"], ["comments", "tt"], ["created_at", 2016-12-07 18:31:21 UTC], ["updated_at", 2016-12-07 18:31:21 UTC]]
+  [1m[35m (16.6ms)[0m  [1m[36mcommit transaction[0m
+  Rendering contact_mailer/contact_email.html.erb
+  Rendered contact_mailer/contact_email.html.erb (0.9ms)
+ContactMailer#contact_email: processed outbound mail in 10.3ms
+Sent mail to graeme.renfrew@icbcstandard.com (6.1ms)
+Date: Wed, 07 Dec 2016 18:31:21 +0000
+From: tt
+To: graeme.renfrew@icbcstandard.com
+Message-ID: <58485579cd5a6_10c32025164959b1@myspecialplace-baritsu-rails-4105798.mail>
+Subject: Contact Form Message
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head></head>  
+  <body>
+    <p>You have received a message from your site's contact form from
+    <!= "# { @name }, #{ @email }." %></p>
+    <p>tt</p>
+  </body>
+</html>
+
+Redirected to https://baritsu-rails-myspecialplace.c9users.io/contact-us
+Completed 302 Found in 165ms (ActiveRecord: 18.3ms)
+
+
+Started GET "/contact-us" for 193.130.160.2 at 2016-12-07 18:31:22 +0000
+Cannot render console from 193.130.160.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 90ms (Views: 88.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact-us" for 193.130.160.2 at 2016-12-07 18:33:08 +0000
+Cannot render console from 193.130.160.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 200ms (Views: 184.1ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/contacts" for 193.130.160.2 at 2016-12-07 18:33:15 +0000
+Cannot render console from 193.130.160.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZgSI1xMY4WybWCFoP/e2zgrsoMqGdvm1DM0F1tgvEY5R2Pu1o4k9RBFoBHonDTYi728Tqz6yyWGBjrtkBOwRTQ==", "contact"=>{"name"=>"test", "email"=>"test", "comments"=>"test"}, "commit"=>"Submit"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.4ms)[0m  [1m[32mINSERT INTO "contacts" ("name", "email", "comments", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "test"], ["email", "test"], ["comments", "test"], ["created_at", 2016-12-07 18:33:15 UTC], ["updated_at", 2016-12-07 18:33:15 UTC]]
+  [1m[35m (83.8ms)[0m  [1m[36mcommit transaction[0m
+Completed 500 Internal Server Error in 118ms (ActiveRecord: 85.4ms)
+
+
+  
+NameError (uninitialized constant ApplicationMailer::Base):
+  
+app/mailers/contact_mailer.rb:1:in `<top (required)>'
+app/controllers/contacts_controller.rb:13:in `create'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (42.1ms)
+Started POST "/contacts" for 193.130.160.2 at 2016-12-07 18:41:56 +0000
+Cannot render console from 193.130.160.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZgSI1xMY4WybWCFoP/e2zgrsoMqGdvm1DM0F1tgvEY5R2Pu1o4k9RBFoBHonDTYi728Tqz6yyWGBjrtkBOwRTQ==", "contact"=>{"name"=>"test", "email"=>"test", "comments"=>"test"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "contacts" ("name", "email", "comments", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "test"], ["email", "test"], ["comments", "test"], ["created_at", 2016-12-07 18:41:56 UTC], ["updated_at", 2016-12-07 18:41:56 UTC]]
+  [1m[35m (11.8ms)[0m  [1m[36mcommit transaction[0m
+  Rendering contact_mailer/contact_email.html.erb within layouts/mailer
+  Rendered contact_mailer/contact_email.html.erb within layouts/mailer (0.7ms)
+ContactMailer#contact_email: processed outbound mail in 11.2ms
+Sent mail to graeme.renfrew@icbcstandard.com (3.6ms)
+Date: Wed, 07 Dec 2016 18:41:56 +0000
+From: test
+To: graeme.renfrew@icbcstandard.com
+Message-ID: <584857f49ebc1_10c3202516496094@myspecialplace-baritsu-rails-4105798.mail>
+Subject: Contact Form Message
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head></head>  
+  <body>
+    <p>You have received a message from your site's contact form from
+    <!= "# { @name }, #{ @email }." %></p>
+    <p>test</p>
+  </body>
+</html>
+
+  </body>
+</html>
+
+Redirected to https://baritsu-rails-myspecialplace.c9users.io/contact-us
+Completed 302 Found in 156ms (ActiveRecord: 13.5ms)
+
+
+Started GET "/contact-us" for 193.130.160.2 at 2016-12-07 18:41:56 +0000
+Cannot render console from 193.130.160.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 76ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
