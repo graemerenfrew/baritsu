@@ -1458,3 +1458,28 @@ Processing by ContactsController#new as HTML
 Completed 200 OK in 235ms (Views: 232.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/contact-us" for 193.130.160.2 at 2016-12-07 16:09:46 +0000
+Cannot render console from 193.130.160.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 572ms (Views: 546.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 193.130.160.2 at 2016-12-07 16:10:50 +0000
+Cannot render console from 193.130.160.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 117ms (Views: 114.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/new" for 193.130.160.2 at 2016-12-07 16:10:52 +0000
+Cannot render console from 193.130.160.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 63ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
