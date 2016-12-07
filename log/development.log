@@ -1304,3 +1304,157 @@ Processing by ContactsController#new as HTML
 Completed 200 OK in 68ms (Views: 66.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/contacts/new" for 193.130.160.2 at 2016-12-07 15:32:20 +0000
+Cannot render console from 193.130.160.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 560ms (Views: 534.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/contacts/new" for 193.130.160.2 at 2016-12-07 15:38:12 +0000
+Cannot render console from 193.130.160.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (4.1ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ubuntu/workspace/saasapp/app/views/contacts/new.html.erb:7: syntax error, unexpected tLABEL, expecting keyword_do or '{' or '('
+...=( content_tag :div, msg class: "alert alert-#{type}" );@out...
+...                               ^
+/home/ubuntu/workspace/saasapp/app/views/contacts/new.html.erb:34: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/contacts/new.html.erb:7: syntax error, unexpected tLABEL, expecting keyword_do or '{' or '('
+app/views/contacts/new.html.erb:34: syntax error, unexpected keyword_ensure, expecting end-of-input
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.2ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (43.4ms)
+Started GET "/contacts/new" for 193.130.160.2 at 2016-12-07 15:38:34 +0000
+Cannot render console from 193.130.160.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ubuntu/workspace/saasapp/app/views/contacts/new.html.erb:34: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/contacts/new.html.erb:34: syntax error, unexpected keyword_ensure, expecting end-of-input
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.9ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (36.3ms)
+Started GET "/contacts/new" for 193.130.160.2 at 2016-12-07 15:39:26 +0000
+Cannot render console from 193.130.160.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ubuntu/workspace/saasapp/app/views/contacts/new.html.erb:34: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/contacts/new.html.erb:34: syntax error, unexpected keyword_ensure, expecting end-of-input
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.3ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@saasapp/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (38.8ms)
+Started GET "/contacts/new" for 193.130.160.2 at 2016-12-07 15:39:47 +0000
+Cannot render console from 193.130.160.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 157ms (Views: 155.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/contacts" for 193.130.160.2 at 2016-12-07 15:39:50 +0000
+Cannot render console from 193.130.160.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zuD9M0cRp/8lWfb/Fft9X92kwGHZuZHVx28L7jtzRdz5PI5R94B7169p0+0NAf2zOCdzAGF9oQFKLLVc57BFHw==", "contact"=>{"name"=>"", "email"=>"", "comments"=>""}, "commit"=>"Submit"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Redirected to https://baritsu-rails-myspecialplace.c9users.io/contacts/new
+Completed 302 Found in 7ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/contacts/new" for 193.130.160.2 at 2016-12-07 15:39:50 +0000
+Cannot render console from 193.130.160.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 76ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/contacts" for 193.130.160.2 at 2016-12-07 15:40:06 +0000
+Cannot render console from 193.130.160.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OuJppWTcm1b7IjDN7ieS0nE2dNmtVffRv6EzmTOxrkkNPhrH1E1HfnESFd/23RI+lLXHuBWRxwUy4o0r73Kuig==", "contact"=>{"name"=>"fdsf", "email"=>"fsd", "comments"=>"fsd"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "contacts" ("name", "email", "comments", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "fdsf"], ["email", "fsd"], ["comments", "fsd"], ["created_at", 2016-12-07 15:40:06 UTC], ["updated_at", 2016-12-07 15:40:06 UTC]]
+  [1m[35m (12.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://baritsu-rails-myspecialplace.c9users.io/contacts/new
+Completed 302 Found in 188ms (ActiveRecord: 13.3ms)
+
+
+Started GET "/contacts/new" for 193.130.160.2 at 2016-12-07 15:40:06 +0000
+Cannot render console from 193.130.160.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 72ms (Views: 70.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/contacts" for 193.130.160.2 at 2016-12-07 15:40:30 +0000
+Cannot render console from 193.130.160.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"s1Rp3jIYyweqZ/nlXhWYQNn2hbmnBHJCLCQpQL2oToeEiBq8gokXLyBX3PdG7xisPHU22B/AQpahZ5fyYWtORA==", "contact"=>{"name"=>"", "email"=>"", "comments"=>""}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Redirected to https://baritsu-rails-myspecialplace.c9users.io/contacts/new
+Completed 302 Found in 16ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/contacts/new" for 193.130.160.2 at 2016-12-07 15:40:30 +0000
+Cannot render console from 193.130.160.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 86ms (Views: 83.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/contacts" for 193.130.160.2 at 2016-12-07 15:43:14 +0000
+Cannot render console from 193.130.160.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FP/VJCMzh7AftKfhhhcacXiq7yhuTYbxTbGJN0CkTiQjI6ZGk6JbmJWEgvOe7ZqdnSlcSdaJtiXA8jeFnGdO5w==", "contact"=>{"name"=>"", "email"=>"", "comments"=>""}, "commit"=>"Submit"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Redirected to https://baritsu-rails-myspecialplace.c9users.io/contacts/new
+Completed 302 Found in 9ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/contacts/new" for 193.130.160.2 at 2016-12-07 15:43:14 +0000
+Cannot render console from 193.130.160.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 235ms (Views: 232.6ms | ActiveRecord: 0.0ms)
+
+
