@@ -2175,3 +2175,64 @@ Processing by Devise::RegistrationsController#new as HTML
 Completed 200 OK in 51ms (Views: 49.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/users/sign_in" for 92.5.90.203 at 2016-12-08 18:51:38 +0000
+Cannot render console from 92.5.90.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (67.4ms)
+Completed 200 OK in 460ms (Views: 419.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/users/sign_in" for 92.5.90.203 at 2016-12-08 18:52:33 +0000
+Cannot render console from 92.5.90.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 69ms (Views: 67.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 92.5.90.203 at 2016-12-08 18:53:00 +0000
+Cannot render console from 92.5.90.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 127ms (Views: 126.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 92.5.90.203 at 2016-12-08 18:53:20 +0000
+Cannot render console from 92.5.90.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 90ms (Views: 88.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 92.5.90.203 at 2016-12-08 18:53:53 +0000
+Cannot render console from 92.5.90.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 153ms (Views: 151.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 92.5.90.203 at 2016-12-08 18:54:02 +0000
+Cannot render console from 92.5.90.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2wVxRjfFchFW7pii90YIVDQGxefeINWeLpABVR7Y5tAB12xjIv0ZACE+dV7qDQa3KPy7oKlej6nDPgWRhSpj4g==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2wVxRjfFchFW7pii90YIVDQGxefeINWeLpABVR7Y5tAB12xjIv0ZACE+dV7qDQa3KPy7oKlej6nDPgWRhSpj4g==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (3.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (127.0ms)
+Completed 200 OK in 194ms (Views: 192.0ms | ActiveRecord: 0.0ms)
+
+
