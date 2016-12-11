@@ -4,6 +4,7 @@
     <h1 class="text-center">Here's your profile</h1>
     <p class="text-center">Be a part of the Baritsu! community and fill out your profile!</p>
     <div class="well">
+      <%= image_tag @user.profile.avatar.url %>
       <%= @user.profile.first_name %> <%= @user.profile.last_name %><br/>
       <%= @user.profile.job_title %><br/>
       <%= @user.profile.description %><br/>
