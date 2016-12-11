@@ -4,7 +4,14 @@
     <h1 class="text-center">Here's your profile</h1>
     <p class="text-center">Be a part of the Baritsu! community and fill out your profile!</p>
     <div class="well">
-      <%= @user.inspect %>
+      <%= @user.profile.first_name %> <%= @user.profile.last_name %><br/>
+      <%= @user.profile.job_title %><br/>
+      <%= @user.profile.description %><br/>
+      <!-- if a pro user, let them see the full detials -->
+      <% if current_user.plan_id == 2 %>
+          <%= @user.profile.phone_number %><br/>
+          <%= @user.profile.contact_email %><br/>
+      <% end %>
     </div>
   </div>
 </div>

@@ -4,12 +4,13 @@ User Profiles
 # The user should be able to view their profile once completed
 # The user should be able to have a profile photo
 # The user should be able to view all other user profiles (NOT IN PROD)
+# Subscriptions only last 3 months, then their results/stats are stopped but they still have access to free
 
 Quiz
 # User should be able to have 'Attempts'
-# User should be able to sign up to multiple 'courses'
 # User should be able to reset statistics within Course
 # User should be able to have multiple attempts on the same tests within the courses
+# User should be able to sign up to multiple 'Courses'
 
 Questions
 # Quiz should have n questions
