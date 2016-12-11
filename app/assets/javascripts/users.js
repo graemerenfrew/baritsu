@@ -3,10 +3,11 @@
 
 //Document ready
 $(document).on('turbolinks:load', function(){
+    
     //Assign elements to variables for easier reference
     var theForm = $('#pro_form'); 
-    var submitBtn = $('#form-submit-btn');
-    
+    var submitBtn = $('#form-signup-btn');
+   
     //Set Stripe public key
     Stripe.setPublishableKey( $('meta[name="stripe-key"]').attr('content') );
     
@@ -66,8 +67,10 @@ $(document).on('turbolinks:load', function(){
       //Handle that token response
       //Inject token as hidden field into form
       theForm.append( $('<input type="hidden" name="user[stripe_card_token]">').val(token));
+          
+      //Submit form to our app
+      theForm.get(0).submit();
     }
-    
-    //Submit form to our app
-    theForm.get(0).submit();
+
+ 
 });
