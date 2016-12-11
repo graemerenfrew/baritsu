@@ -1,0 +1,20 @@
+User Profiles
+# Each user should have one profile
+# The user should see the link to the new profile form upon sign-upo
+# The user should be able to view their profile once completed
+# The user should be able to have a profile photo
+# The user should be able to view all other user profiles (NOT IN PROD)
+
+Quiz
+# User should be able to have 'Attempts'
+# User should be able to sign up to multiple 'courses'
+# User should be able to reset statistics within Course
+# User should be able to have multiple attempts on the same tests within the courses
+
+Questions
+# Quiz should have n questions
+
+
+Reports
+# User should be able to view report on their test results within the Course
+
