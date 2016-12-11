@@ -45,7 +45,17 @@ background: linear-gradient(to left, #3a7bd5 , #3a6073); /* W3C, IE 10+/ Edge, F
    padding-bottom: 100px;
  }
  
- 
+.flash-container {
+  position: absolute;
+  width: 50%;
+}
+.alert-notice, .alert-alert {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+  margin-top: -14px;
+}
+
 .home-signup-links {
   margin-top: 30px;
 }
