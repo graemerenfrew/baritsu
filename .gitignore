@@ -1,6 +1,11 @@
 # Ignore all logfiles and tempfiles.
-/log/*.log
+/log/*
 /tmp/*
-*.sqlite3
+!/log/.keep
+!/tmp/.keep
+
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/.bundle
 # Ignore application configuration
 /config/application.yml
