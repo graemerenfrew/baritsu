@@ -15,6 +15,6 @@ Questions
 # Quiz should have n questions
 
 
-Reports
+Dashboard Reports
 # User should be able to view report on their test results within the Course
 
