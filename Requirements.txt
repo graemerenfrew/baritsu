@@ -1,6 +1,6 @@
 User Profiles
 # Each user should have one profile
-# The user should see the link to the new profile form upon sign-upo
+# The user should see the link to the new profile form upon sign-up
 # The user should be able to view their profile once completed
 # The user should be able to have a profile photo
 # The user should be able to view all other user profiles (NOT IN PROD)

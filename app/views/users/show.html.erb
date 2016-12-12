@@ -4,13 +4,14 @@
       <%= image_tag @user.profile.avatar.url, class: 'avatar-show-img' %>
     </div>
     <div class="col-md-6">    
-      <h1 class="text-center">Here's your profile</h1>
-      <p class="text-center">Be a part of the Baritsu! community and fill out your profile!</p>
       <h1><%= @user.profile.first_name %> <%= @user.profile.last_name %><br/></h1>
+      <h3><span class="job-title-icon"> <%= job_title_icon %></span><%= @user.profile.job_title %></h3><br/>
+      
       <div class="well profile-block profile-description">
         <h3>Description</h3>
-        <%= @user.profile.job_title %><br/>
+        <%= @user.profile.description %><br/>
       </div>
+      
       <!-- if a pro user, let them see the full detials -->
       <% if current_user.plan_id == 2 %>
           <div class="well profile-block profile-contact-info">
