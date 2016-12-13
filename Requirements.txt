@@ -11,6 +11,7 @@ Quiz
 # User should be able to reset statistics within Course
 # User should be able to have multiple attempts on the same tests within the courses
 # User should be able to sign up to multiple 'Courses'
+# Allow pause and resume, so will need a state of the current quiz
 
 Questions
 # Quiz should have n questions
