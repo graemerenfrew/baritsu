@@ -4,19 +4,116 @@ User Profiles
 # The user should be able to view their profile once completed
 # The user should be able to have a profile photo
 # The user should be able to view all other user profiles (NOT IN PROD)
-# Subscriptions only last 3 months, then their results/stats are stopped but they still have access to free
+# Subscriptions only last 3 months, then their results/stats are stopped but they still have access to free quiz version
+
+
+BARITSU
+
+Categories
+#High level categories should span multiple Certification bodies, certification streams
+#e.g. Project Management, PMI and PRINCE2 for example
+
+# CategoryID
+
+CategoryProfile
+# CategoryProfileID
+# CategoryID
+# Description
+# Timestamps
+# SplashImage [ with a default value ]
+# ThumbnailImage [ with a default value ]
+
+SplashImages
+# SplashImageID
+# SplashImageURL
+
+ThumbnailImages
+# ThumbnailImageID
+# ThumbnailImageURL
+
+Category can have many Certification Bodies 
+Certification Bodies can have many Certifications 
+Certifications can have many Test Packages  [but probably one just to start with]
+Test Packages can have many Tests [mini real life, specialisation etc]
+Tests can have many Attempts 
+Tests can be of many Types
+
+Test Types
+# Mini Real-life
+# Subject Specialisation
+# Full length?
+
+Test Packages
+# Should have a Premium Price and a Discount Price
+# Should have a life span
+# Should have multiple tests
+# Should have a Progress tracking of some kind, not sure how
+
+Tests
+# Should have passing grade
+
+TestAttempts
+# Should allow multiple attempts at the same test 
+# TestID
+# AttemptID
+# DateOfAttemp
+# CurrentStateOfAttempt
+# QuestionsInAttempt
+
+QuestionsInAttempt
+# Status  - Marked, Answered, Unanswered
+# AnswerCorrect bool
+
+QuestionFeedback
+# QuestionID
+# AttemptID
+# FeedbackStatus
+# FeedbackComment
+
+QuestionFeedbackStatus
+# Status - Confusing, OK, Incorrect, Other
+
+
+Certification Bodies
+#Treat 'Certification Bodies' same as Users, with the Index in the Community acting like a list of bodies.
+#Have the avatar type functionality to store the certification logo image
+#Have the profile object store details of the certification body - this will allow us to index them
 
 Quiz
+# Premium Content should also have Free Content associated as a tempter
 # User should be able to have 'Attempts'
 # User should be able to reset statistics within Course
 # User should be able to have multiple attempts on the same tests within the courses
 # User should be able to sign up to multiple 'Courses'
 # Allow pause and resume, so will need a state of the current quiz
+# Should have a passing grade value to compare attempts against
+
 
 Questions
 # Quiz should have n questions
 
+Usability
+#pagination of tests
+#mark questions for review
+#review page before submission - show marked and unanswered and answered
+#go to review page from any question 
+
 
 Dashboard Reports
 # User should be able to view report on their test results within the Course
+# Show trends per subject category
+# Show trends over time
+# Show subject categories
 
+Administration screens
+#Allow admin user to get stats on the site and the various attempts, users etc
+
+#Stats
+#Have bait pages for subjects I'm not sure are of value, then track how many visitors
+#Allow visitors to enter their email address to be notified when available, with a free voucher to say thanks
+
+Stretch Goals
+#Voucher codes with Stripe
+#PDF output of answers and explanations
+#Facebook share on completion
+#Create own tests from specialisations
